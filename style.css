@@ -1,0 +1,11 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; background: #121212; color: #fff; overflow-x: hidden; }
+nav { height: 80px; display: flex; justify-content: space-between; align-items: center; padding: 0 10%; border-bottom: 1px solid #333; }
+.logo { font-size: 1.5rem; font-weight: bold; }
+.logo span { color: #d17a22; }
+#menuBtn { background: none; border: 1px solid #fff; color: white; padding: 5px 15px; cursor: pointer; }
+.hero { height: calc(100vh - 80px); display: flex; align-items: center; padding: 0 10%; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200'); background-size: cover; background-position: center; }
+.content h1 { font-size: 4rem; line-height: 1; margin-bottom: 20px; }
+.content p { font-size: 1.2rem; color: #ccc; margin-bottom: 30px; max-width: 500px; }
+.cta { background: #d17a22; color: white; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: bold; border-radius: 5px; cursor: pointer; transition: 0.3s; }
+.cta:hover { background: #b0651a; transform: translateY(-3px); }
